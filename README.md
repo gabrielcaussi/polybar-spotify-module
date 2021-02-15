@@ -1,6 +1,6 @@
 # Polybar Spotify Module
 
-Module for polybar that interacts with Spotify. Este modulo so aparece na polybar depois que o Spotify e iniciado.
+Module for polybar that interacts with Spotify. This module only appears on the polybar after Spotify is started.
 
 ### Module Off
 
@@ -10,11 +10,11 @@ Module for polybar that interacts with Spotify. Este modulo so aparece na polyba
 
 ![Module On](/screenshots/module-on.png)
 
-### Instalacao
+### Installation
 
-Para instalar copie as pastas /modules e /scripts para a pasta da sua polybar.
+To install, copy the /modules and /scripts folders to your polybar folder.
 
-Agora crie um link para o modulo do spotify e adicione o modulo no centro da polybar:
+Now create a link to the spotify module and add the module in the center of the polybar in the config.ini file of the polybar:
 
 ```
 include-file = ~/.config/polybar/modules/spotify.ini
@@ -24,4 +24,4 @@ include-file = ~/.config/polybar/modules/spotify.ini
 modules-center = spotify-icon spotify-music spotify-prev spotify-play-pause spotify-next
 ```
 
-Para entender melhor como funciona este modulo, utilize este outro [repositorio](https://github.com/gabrielcaussi/dotfiles-bspwm).
+To understand in practice how this module works, use this other [repository](https://github.com/gabrielcaussi/dotfiles-bspwm).
