@@ -2,6 +2,14 @@
 
 Module for polybar that interacts with Spotify. This module only appears on the polybar after Spotify is started.
 
+### Install dependencies: 
+
+Install `playerctl` and add the following to your `.xinitrc`:
+
+```
+exec dbus-launch --autolaunch=$(cat /var/lib/dbus/machine-id)
+```
+
 ### Module Off
 
 ![Module Off](/screenshots/module-off.png)
